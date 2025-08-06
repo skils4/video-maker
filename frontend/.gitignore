@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Production
+dist
+dist-ssr
+
+# Misc
+.DS_Store
+coverage
+*.local
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build info
+*.tsbuildinfo
+
+# Secret files
+gcloud-credentials.json
+
+# --- ВАЖЛИВІ ДОПОВНЕННЯ ---
+# Файл з ключами API
+.env
+
+# Папка з генерованими файлами
+/backend/uploads/
+uploads/

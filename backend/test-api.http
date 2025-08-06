@@ -1,0 +1,26 @@
+### Перевірка сервера
+GET http://localhost:3000/health
+
+### Обробка власного тексту
+POST http://localhost:3000/api/text/custom
+Content-Type: application/json
+
+{
+  "text": "Це тестовий текст. Він містить кілька речень. Кожне речення може стати окремим блоком у відео."
+}
+
+### Рерайт тексту
+POST http://localhost:3000/api/text/rewrite
+Content-Type: application/json
+
+{
+  "text": "Оригінальний текст для рерайту"
+}
+
+### YouTube посилання
+POST http://localhost:3000/api/text/youtube
+Content-Type: application/json
+
+{
+  "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+}

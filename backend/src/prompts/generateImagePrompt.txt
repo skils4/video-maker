@@ -1,0 +1,7 @@
+Create a detailed image generation prompt in English based on this Ukrainian text.
+Make it visual, specific, and suitable for AI image generation.
+Include details about: objects, colors, lighting, mood, style.
+Keep it under 100 words.
+Return ONLY the prompt, no explanations.
+
+Text: ${text}
